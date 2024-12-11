@@ -1,0 +1,233 @@
+/* Reset básico para padronizar e remover estilos padrão */ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Remove limites de altura e largura padrão */
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/* Garante que imagens e vídeos não ultrapassem o container */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* Remoção de estilos de lista padrão */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Limpa a aparência dos links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remove bordas e estilos padrão dos botões */
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+/* Garantia de que tabelas estejam colapsadas */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Remove estilos padrão de formulário */   
+input,
+textarea,
+select,
+button {
+    font: inherit;
+    outline: none;
+    border: none;
+    background: none;
+}
+
+/* Remove sublinhados e estilos de links em geral */
+a:link,
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Fim reset CSS/*  */
+
+@font-face {
+    font-family: "android";
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body {
+    background-color: #f0bb9d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(0, 116, 0), rgb(0, 44, 0));
+    height: 200px;
+    justify-content: center;
+    color: white;
+    font-family: Bebas Neue;
+}
+
+main {
+    background-color: white;
+    border-radius: 0px 0px 20px 20px;
+    padding: 0px;
+    width: 1000px;
+    margin: auto;
+    box-shadow: 5px 5px 15px rgb(136, 109, 93, 0.61);
+    padding-top: 30px;
+    margin-bottom: 30px;
+    max-width: 800px;
+    min-width: 280px;
+}
+
+strong {
+    background-color: rgb(11, 185, 11);
+    
+}
+
+.container-titulo {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.titulo-principal {
+    padding: 30px;
+}
+
+.titulo-secundario {
+    padding-bottom: 30px;
+}
+
+button {
+    padding-top: 30px;
+    color: rgba(56, 204, 56, 0.918);
+}
+
+.botao-primario {
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.botao {
+    padding-right: 10px;
+}
+
+.fileiras {
+    margin: auto;
+}
+
+h2 {
+    margin-bottom: 30px;
+    font-family: "android";
+}
+
+.h2 {
+    background-image: linear-gradient(to right, rgba(11, 126, 11, 0.918), rgba(7, 211, 7, 0.253), rgba(212, 212, 16, 0));
+    color: rgb(4, 32, 4);
+}
+
+.paragrafo {
+    text-indent: 30px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+
+.paragrafo-dois {
+    text-indent: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.video {
+    text-align: center;
+    background-color: rgba(84, 155, 84, 0.918);
+    padding: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.container-conteudo {
+    margin-left: 10px;
+    background-color: rgba(84, 155, 84, 0.918);
+    border-radius: 10px;
+    display: center;
+    margin: auto;
+    width: 960px;
+    margin-top: 20px;
+   padding-bottom: 1px;
+}
+
+.conteudo-dois {
+    display: flex;
+    margin-left: 15px;
+}
+
+.aprender{
+    background-color: green;
+}
+
+.separado {
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    padding: px;
+    text-align: center;
+}
+
+.paragrafo-tres {
+    margin-bottom: 10px;
+    text-indent: 30px;
+}
+
+.lista-dois{
+    margin-left: 250px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: rgb(5, 66, 5);
+    color: rgb(52, 255, 1);
+    text-align: center;
+    padding: 20px;
+}
+
+.paragrafo-quatro{
+    text-indent: 30px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-top: 1px;
+    text-align: center;
+}
+
+#filho-botao > button:hover{
+    background-color: green;
+    padding: 0;
+    border-radius: 7px;
+}
